@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.intro-text h2 {
+    font-size: 48px;
+    color: #333;
+}
+
+.intro-text h2 span {
+    color: #4b7ef5;
+}
+
+.intro-text h3 {
+    font-size: 32px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.contact-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #4b7ef5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.modal-content {
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.picture-frame {
+    width: 200px; /* Increase this value */
+    height: 200px; /* Increase this value */
+    background-color: #4b7ef5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.picture-frame img {
+    width: 550px; /* Adjust this value relative to the frame */
+    height: 550px; /* Adjust this value relative to the frame */
+    border-radius: 50%;
+}
+
+
+.picture-frame img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f4ff;
+    margin-top: 50px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+/* Skills Section */
+.skills-section {
+    padding: 60px 20px;
+    text-align: center; /* Center-align the heading */
+    background-color: #ffffff; /* White background */
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Skills Container */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual Skill */
+.skill {
+    width: 45%; /* Half-width for two columns */
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Skill Bar */
+.skill-bar {
+    background-color: #e0e0e0; /* Light grey background for skill bar */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.skill-progress {
+    background-color: #4CAF50; /* Green color for progress */
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+    height: 10px;
+    line-height: 10px;
+    transition: width 0.5s ease;
+}
