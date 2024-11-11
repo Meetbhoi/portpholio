@@ -1,99 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Meet</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1>Meet</h1>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <h1>Meet</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    
+
     <section id="home" class="intro-section">
-        <div class="intro-text">
-            <h2>Hi,<br>I'm <span>Meet</span></h2>
-            <h3>Web Designer</h3>
-            <button class="contact-button" onclick="toggleModal()">Contact</button>
+      <div class="intro-text">
+        <h2>Hi,<br />I'm <span>Meet</span></h2>
+        <h3>Web Designer</h3>
+        <button class="contact-button" onclick="toggleModal()">Contact</button>
 
-<!-- Modal for contact options -->
-<div id="contactModal" class="modal">
-    <div class="modal-content">
-        <span class="close-button" onclick="toggleModal()">&times;</span>
-        <h3>Contact Options</h3>
-        <a href="mailto:bhoimeet9@gmail.com">Email: bhoimeet9@gmail.com</a>
-        <a href="https://www.linkedin.com/in/meet-bhoi-8b9069243/" target="_blank">LinkedIn</a>
-        <a href="https://www.instagram.com/meet_9479/" target="_blank">Instagram</a>
-    </div>
-</div>
-
+        <!-- Modal for contact options -->
+        <div id="contactModal" class="modal">
+          <div class="modal-content">
+            <span class="close-button" onclick="toggleModal()">&times;</span>
+            <h3>Contact Options</h3>
+            <a href="mailto:bhoimeet9@gmail.com">Email: bhoimeet9@gmail.com</a>
+            <a
+              href="https://www.linkedin.com/in/meet-bhoi-8b9069243/"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a href="https://www.instagram.com/meet_9479/" target="_blank"
+              >Instagram</a
+            >
+          </div>
         </div>
-        <div class="profile-picture">
-            <div class="picture-frame">
-                <img src="img/profile.jpeg" width="1000" alt="Profile Picture of Marlon">
-            </div>
+      </div>
+      <div class="profile-picture">
+        <div class="picture-frame">
+          <img
+            src="profile.jpeg"
+            width="1000"
+            alt="Profile Picture of Marlon"
+          />
         </div>
+      </div>
     </section>
 
     <footer>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/meet-bhoi-8b9069243/"><img src="img/linkedin-icon.png" width="1000" alt="LinkedIn"></a>
-            <a href="#"><img src="img/behance-icon.png" alt="Behance"></a>
-            <a href="#"><img src="img/github-icon.png" alt="GitHub"></a>
-        </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/meet-bhoi-8b9069243/"
+          ><img src="linkedin-icon.png" width="1000" alt="LinkedIn"
+        /></a>
+        <a href="#"><img src="behance-icon.png" alt="Behance" /></a>
+        <a href="#"><img src="github-icon.png" alt="GitHub" /></a>
+      </div>
     </footer>
     <section id="skills" class="skills-section">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill">
-                <span class="skill-name">PHP</span>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%;">90%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">jQuery</span>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 85%;">85%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">HTML5</span>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 95%;">95%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">CSS3</span>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%;">90%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">WordPress</span>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 70%;">70%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">SEO</span>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 80%;">80%</div>
-                </div>
-            </div>
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <span class="skill-name">PHP</span>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%">90%</div>
+          </div>
         </div>
+        <div class="skill">
+          <span class="skill-name">jQuery</span>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%">85%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">HTML5</span>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 95%">95%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">CSS3</span>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%">90%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">WordPress</span>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%">70%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">SEO</span>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%">80%</div>
+          </div>
+        </div>
+      </div>
     </section>
-    
-    <script src="js/script.js"></script>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
